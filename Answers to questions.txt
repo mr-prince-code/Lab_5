@@ -1,0 +1,21 @@
+1. 10 from 13 components are needed for 95% in variance.The first pc explains 36% and the first two explain 55%
+
+
+2. LDA is supervised and has maximum class separability. This makes it a better than PCA, however PCA has better class separation ration.
+PCA has 92.6% accuracy and LDA has 100% accuracy. LDA looks for discriminative features while PCA looks for descriptive features.
+
+3. Y = 0.01: loses the nonlinear structure and has 50% accuracy
+   Y = 1: Has moderate performance with 75% accuracy
+   Y = 15:Has 95% accuracy and its good for half-moon data 
+   Y = 100: Overfitting. The accuracy is 60%
+
+
+4. LDA has perfect perfomance on wine dataset with 100% accuracy.
+Dimensionality reduction doubles the training speed and can improve it even more.
+SVM generally outperforms Logistic Regression. 2D projections maintain great performance while still reducing the complexity dramatically
+
+5. 
+
+PCA fails on: XOR patterns, nonlinear boundaries, curved manifolds
+KPCA addresses nonlinearity through kernel trick - implicit mapping to higher dimensions
+KPCA is more powerful but it is also computationally expensive and harder to tune
